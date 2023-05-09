@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dundie-rewards"
+version = "0.1.0"
+description = ""
+authors = ["Al Lopes"]
+license = "gnu ver 3.0"
+readme = "README.md"
+packages = [{include = "dundie_rewards"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
